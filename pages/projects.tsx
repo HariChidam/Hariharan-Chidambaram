@@ -16,7 +16,7 @@ export default function Projects() {
         <Project
           iconSrc={THT}
           title="Theta Tau Website"
-          description="This is the website I built for my professional engineering fraternity"
+          description="This is the new website I built for my professional engineering fraternity"
           buttonText="Check it out!"
           buttonLink='https://thetatau-umich.org/'
         />
