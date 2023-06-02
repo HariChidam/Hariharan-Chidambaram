@@ -5,9 +5,13 @@ export default function Home() {
   return (
     <div className="flex justify-center items-center">
       <div className="w-2/5 mr-4 flex flex-col justify-center">
+        <h1 className="text-3xl font-bold mb-4">Hi! I&apos;m Hariharan (Hari) Chidambaram 🕺🏽 </h1>
         <p className="text-lg">
-          Hi, My name is Hariharan (Hari) Chidambaram! I am a student at the University of Michigan studying Computer Science!
-          I am currently a Sercurity Engineering intern at Flywheel.io. I am particularly interested in Security Engineering and Cloud Engineering! 
+           I am a student at the University of Michigan studying Computer Science 
+          and am particularly interested in Security and Cloud Engineering!
+          I am currently a Security Engineering intern at <a href="https://flywheel.io/" className="text-blue-500 hover:underline"> Flywheel.io </a> and 
+          I am leading an investigation looking for abnormal activity concerning traffic through nginx ingress
+          to our Kubernetes clusters. 
           Outside of the tech world I love Tennis and every endurance sport especially Nordic Skiing!
         </p>
       </div>

@@ -8,7 +8,7 @@ import email from '../public/gmail.svg';
 
 const Footer = () => {
   return (
-    <footer className="flex justify-between bg-white py-4 px-6">
+    <footer className="flex justify-between bg-white py-8 px-6">
       <div className="flex items-center float-left justify-start">
         <Image src={Michigan} alt="Michigan Logo" className="h-6 w-6 mr-2" />
         <span className="font-bold text-blue-1000">Class of &apos;24</span>
