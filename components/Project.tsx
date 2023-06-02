@@ -1,8 +1,8 @@
 import React from 'react';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 
 interface ProjectProps {
-  iconSrc: string;
+  iconSrc: StaticImageData;
   title: string;
   description: string;
   buttonText: string;
@@ -16,10 +16,14 @@ const Project: React.FC<ProjectProps> = ({
   buttonText,
   buttonLink,
 }) => {
+  const iconSrcString = iconSrc.src as string;
+  const width = 200; // Placeholder value for width
+  const height = 200; // Placeholder value for height
+
   return (
     <div className="max-w-md mx-auto bg-white shadow-md rounded-lg overflow-hidden mb-4 transform transition-all hover:scale-105 hover:shadow-lg">
       <div className="relative">
-        <Image src={iconSrc} alt="Project Icon" className="w-full" />
+        <Image src={iconSrcString} alt="Project Icon" className="w-full" width={width} height={height} />
       </div>
       <div className="p-4 flex flex-col items-center">
         <h3 className="text-lg font-semibold mb-2">{title}</h3>
@@ -33,8 +37,3 @@ const Project: React.FC<ProjectProps> = ({
 };
 
 export default Project;
-
-
-
-
-
