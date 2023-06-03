@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div className="flex justify-center items-center">
       <div className="w-2/5 mr-4 flex flex-col justify-center">
-        <h1 className="text-3xl font-bold mb-4">Hi! I&apos;m Hariharan (Hari) Chidambaram 🕺🏽 </h1>
-        <p className="text-lg">
+        <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent py-2">Hi! I&apos;m Hariharan (Hari) Chidambaram </h1>
+        <p className="text-lg font-bold">
            I am a student at the University of Michigan studying Computer Science 
           and am particularly interested in Security and Cloud Engineering!
           I am currently a Security Engineering intern at <a href="https://flywheel.io/" className="text-blue-500 hover:underline"> Flywheel.io </a> and 

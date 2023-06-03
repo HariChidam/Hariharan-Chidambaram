@@ -10,8 +10,10 @@ const Footer = () => {
   return (
     <footer className="flex justify-between bg-white py-8 px-6">
       <div className="flex items-center float-left justify-start">
+        <a className="flex items-center float-left justify-start" href= "https://www.youtube.com/watch?v=9ak9Uxtntfk">
         <Image src={Michigan} alt="Michigan Logo" className="h-6 w-6 mr-2" />
-        <span className="font-bold text-blue-1000">Class of &apos;24</span>
+        <span className="font-bold text-blue-1000">Class of &apos;24</span> 
+        </a>
       </div>
       <div className="flex items-center float-right justify-end space-x-2">
         <Link legacyBehavior href="https://github.com/HariChidam">
