@@ -8,11 +8,11 @@ export default function Projects() {
   return (
     <div>
       <div className="flex items-center justify-center py-6">
-        <h2 className="text-6xl font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent py-8">
+        <h2 className="text-6xl text-center font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent py-8">
           This is what I am building!
         </h2>
       </div>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Project
           iconSrc={THT}
           title="Theta Tau Website"
