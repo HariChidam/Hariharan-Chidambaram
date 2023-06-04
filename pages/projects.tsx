@@ -1,8 +1,11 @@
 import React from 'react';
 import Project from '../components/Project';
+import Future from 'components/components/Future';
 import THT from '../public/THT.png';
 import V1 from '../public/V1.png';
 import TB from '../public/TB.png';
+import blueline from '../public/blueline.png';
+import gotPhished from '../public/gotPhished.png';
 
 export default function Projects() {
   return (
@@ -12,7 +15,7 @@ export default function Projects() {
           This is what I am building!
         </h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <Project
           iconSrc={THT}
           title="Theta Tau Website"
@@ -42,6 +45,14 @@ export default function Projects() {
           techUsed='React, Next JS, TailwindCSS, Flask, YoloV5, Roboflow, Google Colab, Netlify'
           buttonText="Check it out!"
           buttonLink='https://pitch.com/public/d8126c2f-9acb-48a5-bb90-d086556c168d'
+        />
+        <Future
+          iconSrc={blueline}
+          title="Coming Soon!"
+        />
+        <Future
+          iconSrc={gotPhished}
+          title="Coming Soon!"
         />
       </div>
     </div>
