@@ -22,8 +22,14 @@ export default function Home() {
             <a href="https://flywheel.io/" className="text-blue-500 hover:underline">
               Flywheel.io
             </a>{' '}
-            and I am leading an investigation looking for abnormal activity concerning traffic through nginx ingress to our
-            Kubernetes clusters. Outside of the tech world, I love Tennis and every endurance sport, especially Nordic Skiing!
+            and am currenlty working on  secure solution to move the execution of gears 
+            (containerized applications created by Flywheel Users) from outside 
+            the current Kubernetes cluster to inside the cluster. To achieve this, 
+            I am exploring options using a service mesh to enable secure network communication 
+            inside the cluster through mutual TLS. Additionally, I am implementing 
+            Network Policies to restrict gear access to the rest of the cluster because
+             gears consist of arbitrary code written by customers. Outside of the tech world, 
+             I have a passion for tennis and various endurance sports, particularly Nordic Skiing!
           </p>
         </div>
         <div className="w-1/4 rounded-full overflow-hidden">
