@@ -12,23 +12,18 @@ export default function Home() {
       <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="flex flex-col items-center justify-center md:flex-row">
-        <div className="w-3/4 md:w-1/2 mr-4">
+        <div className="flex flex-col items-center w-3/4 md:w-1/2 mr-8 pt-4">
           <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent py-2 text-center">
             Hi! I&apos;m Hariharan (Hari) Chidambaram
           </h1>
-          <p className="text-lg font-bold text-center">
-            I am a student at the University of Michigan studying Computer Science and am particularly interested in Security
-            and Cloud Engineering! I am currently a Security Engineering intern at{' '}
+          <p className="text-lg font-bold text-center pb-4 w-4/5">
+            I am a 3rd year student at the University of Michigan studying Computer Science and am particularly interested in Security
+            and Cloud Engineering. I am currently a Security Engineering Intern at{' '}
             <a href="https://flywheel.io/" className="text-blue-500 hover:underline">
               Flywheel.io
-            </a>{' '}
-            and am currenlty working on  secure solution to move the execution of gears 
-            (containerized applications created by Flywheel Users) from outside 
-            the current Kubernetes cluster to inside the cluster. To achieve this, 
-            I am exploring options using a service mesh to enable secure network communication 
-            inside the cluster through mutual TLS. Additionally, I am implementing 
-            Network Policies to restrict gear access to the rest of the cluster because
-             gears consist of arbitrary code written by customers. Outside of the tech world, 
+            </a>{' '} where I am revamping thier Kubernetes infrastructure to be more secure and create a single cluster SAAS application.
+            I am trying to use my time to learn as much as I can though Google, Youtube, School, and the people around me so that I can be a better engineer!
+             Outside of the tech world, 
              I have a passion for tennis and various endurance sports, particularly Nordic Skiing!
           </p>
         </div>
