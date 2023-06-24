@@ -5,7 +5,10 @@ interface ProjectProps {
   iconSrc: StaticImageData;
   title: string;
   description: string;
-  learnedText: string;
+  learnedText1: string;
+  learnedText2: string;
+  learnedText3: string;
+  learnedText4?: string;
   techUsed: string;
   buttonText1: string;
   buttonLink1: string;
@@ -17,7 +20,10 @@ const Project: React.FC<ProjectProps> = ({
   iconSrc,
   title,
   description,
-  learnedText,
+  learnedText1,
+  learnedText2,
+  learnedText3,
+  learnedText4,
   techUsed,
   buttonText1,
   buttonLink1,
@@ -40,10 +46,15 @@ const Project: React.FC<ProjectProps> = ({
           <h3 className="text-lg text-center font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">
             What I learned!
           </h3>
-          <p className="text-gray-600 mb-4 text-center">
-            {learnedText}
-          </p>
-        </div>
+            <ul className='flex flex-col list-disc text-gray-600 mb-4 px-4'>
+              <li>{learnedText1}</li>
+              <li>{learnedText2}</li>
+              <li>{learnedText3}</li>
+              {learnedText4 &&
+                <li>{learnedText4}</li>
+              }
+            </ul>
+         </div>
         <div className = "flex flex-col items-center py-4">
           <h3 className="text-lg font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">
            Technologies Used 
