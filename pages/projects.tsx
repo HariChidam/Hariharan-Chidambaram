@@ -24,6 +24,8 @@ export default function Projects() {
           techUsed="React, TailwindCSS, Supabase, Netlify, Figma"
           buttonText1="Check it out!"
           buttonLink1="https://thetatau-umich.org/"
+          buttonText2='Documentation'
+          buttonLink2='https://docs.google.com/document/d/145fpROTqI8W12CXS3GU0BrKJSOi3ZzT70IefLqMbxks'
         />
         <Project
           iconSrc={V1}
@@ -46,12 +48,20 @@ export default function Projects() {
           buttonLink2="https://github.com/HariChidam/TableVision"
 
         />
-        <Future
-          iconSrc={blueline}
-          title="Coming Soon!"
+        <Project
+          iconSrc={gotPhished}
+          title="GotPhished"
+          description="This is a Proof of Concept for a GMail add-on I am working on. This can take in imcoming email information and flag it for phishing attacks."
+          learnedText="I learned alot about how to make requests from the Next.js fronted. I also got to play around with alot of prompt engineering to find the best responses to my request. I am also learning alot about the GMail add-on scripts and how annoying it can be :)"
+          techUsed="OpenAI API, React, Next JS, TailwindCSS"
+          buttonText1="Check it Out!"
+          buttonLink1="https://got-phished.vercel.app/"
+          buttonText2="Github Repo"
+          buttonLink2="https://github.com/HariChidam/GotPhished"
+
         />
         <Future
-          iconSrc={gotPhished}
+          iconSrc={blueline}
           title="Coming Soon!"
         />
       </div>
