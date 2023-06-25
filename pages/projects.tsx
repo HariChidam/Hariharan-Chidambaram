@@ -24,7 +24,7 @@ export default function Projects() {
           learnedText2="I learned how to configure and design efficent relational databases."
           learnedText3="I learned how to connect a frontend to a database (Supabase) for storing information and implementing authentication using Google OAuth."
           learnedText4="I leared how to write documentation and outlined new features to be added down the line so that future members can keep the site up and running!"
-          techUsed="React, TailwindCSS, Supabase, Netlify, Figma"
+          techUsed="Javascript, React, SCSS, Supabase, Netlify, Figma"
           buttonText1="Check it out!"
           buttonLink1="https://thetatau-umich.org/"
           buttonText2='Documentation'
@@ -38,7 +38,7 @@ export default function Projects() {
           learnedText2='I learned how to create new API routes, work with our Middlware (Railway), create an infintie scrolling dashboard, and many other features!'
           learnedText3='Now as Platform Lead I have learned a lot about how to think about high level projects and then create a Jira story and tickets for the team to work on'
           learnedText4='I have also learned a lot about writing clean code and reusing components as much as possible!'
-          techUsed="React, Next.js, TailwindCSS, Railway, Supabase, Netlify"
+          techUsed="Typescript, React, Next.js, TailwindCSS, Railway, Supabase, Netlify"
           buttonText1="Check it out!"
           buttonLink1="https://v1michigan.com/"
         />
@@ -50,7 +50,7 @@ export default function Projects() {
           learnedText2='I learned how to use YOLOv5, Roboflow, and Google Colab to create and train a custom model'
           learnedText3='This was my first time working with Flask and I learned how to create my own API and use it to make requests to my custom YOLOv5 model'
           learnedText4='I am now managing a team of 4 to help me implement TableVision at UMich!'
-          techUsed="React, Next.js, TailwindCSS, Flask, YOLOv5, Roboflow, Google Colab, Netlify"
+          techUsed="Javascript, Python, React, Next.js, TailwindCSS, Flask, YOLOv5, Roboflow, Google Colab, Netlify"
           buttonText1="Pitch Deck"
           buttonLink1="https://pitch.com/public/d8126c2f-9acb-48a5-bb90-d086556c168d"
           buttonText2="Github Repo"
@@ -64,7 +64,7 @@ export default function Projects() {
           learnedText1='I learned how to make API reqeusts from my Next.js frontend without having to set up a backend.'
           learnedText2='I also learned alot about GPT-3, LLMs, and Prompt Engineering to create accurate responses to my requests.'
           learnedText3='I also have been learning alot about GMail add-on scripts and how annoying they can be to make :)'
-          techUsed="OpenAI API, React, Next.js, TailwindCSS, Vercel"
+          techUsed="OpenAI API, Typescript, React, Next.js, TailwindCSS, Vercel"
           buttonText1="Check it Out!"
           buttonLink1="https://got-phished.vercel.app/"
           buttonText2="Github Repo"

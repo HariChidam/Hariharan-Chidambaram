@@ -21,10 +21,9 @@ export default function Home() {
             and Cloud Engineering. I am currently a Security Engineering Intern at{' '}
             <a href="https://flywheel.io/" className="text-blue-500 hover:underline">
               Flywheel.io
-            </a>{' '} where I am revamping thier Kubernetes infrastructure to be more secure and create a single cluster SAAS application.
-            I am trying to use my time to learn as much as I can though Google, Youtube, School, and the people around me so that I can be a better engineer!
-             Outside of the tech world, 
-             I have a passion for tennis and various endurance sports, particularly Nordic Skiing!
+            </a>{' '} where I am revamping their Kubernetes infrastructure to securely run user code in cluster and create a single cluster SAAS application.
+              I am trying to use my time to learn as much as I can though Google, Youtube, School, and the people around me so that I can be a better engineer!
+              Outside of the tech world, I have a passion for tennis and various endurance sports, particularly Nordic Skiing!
           </p>
         </div>
         <div className="w-1/4 rounded-full overflow-hidden">
