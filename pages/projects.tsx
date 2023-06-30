@@ -4,7 +4,7 @@ import Future from '../components/Future';
 import THT from '../public/THT.png';
 import V1 from '../public/V1.png';
 import TB from '../public/TB.png';
-import blueline from '../public/blueline.png';
+import blueline from '../public/blueline.jpeg';
 import gotPhished from '../public/gotPhished.png';
 
 export default function Projects() {
