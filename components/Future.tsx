@@ -15,7 +15,7 @@ const Future: React.FC<FutureProps> = ({
   const height = 200; // Placeholder value for height
 
   return (
-    <div className="max-w-md mx-auto bg-white shadow-2xl rounded-lg overflow-hidden mb-4 transform transition-all hover:scale-105 hover:shadow-lg">
+    <div className="max-w-md mx-auto bg-white shadow-2xl rounded-lg overflow-hidden mb-4 border border-slate-900 transform transition-all hover:scale-105 ease-in duration-300">
       <div className="relative">
         <Image src={iconSrcString} alt="Project Icon" className="w-full" width={width} height={height} />
       </div>
