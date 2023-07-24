@@ -28,8 +28,8 @@ export default function Home() {
           </p>
         </div>
         <div className="relative">
-          <Image src={hari} alt="Hari's Photo" layout="fixed" objectFit="cover" className='w-80 rounded-lg transition-opacity duration-300 ease-in opacity-100 hover:opacity-0' />
-          <Image src={cartoonHari} alt="Hari's Photo" layout="fixed" objectFit="cover" className='w-80 rounded-lg absolute top-0 left-0 transition-opacity duration-300 ease-in opacity-0 hover:opacity-100' />
+          <Image src={hari} alt="Hari's Photo" layout="fixed" objectFit="cover" className='w-80 rounded-full transition-opacity duration-300 ease-in opacity-100 hover:opacity-0' />
+          <Image src={cartoonHari} alt="Hari's Photo" layout="fixed" objectFit="cover" className='w-80 rounded-full absolute top-0 left-0 transition-opacity duration-300 ease-in opacity-0 hover:opacity-100' />
         </div>
       </div>
     </div>
