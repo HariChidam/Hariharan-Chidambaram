@@ -71,9 +71,17 @@ export default function Projects() {
           buttonLink2="https://github.com/HariChidam/GotPhished"
 
         />
-        <Future
+        <Project
           iconSrc={blueline}
-          title="Coming Soon!"
+          title="blueline (In Progress)"
+          description='This is going to be a crowdsourced line checking app for the Bars/Clubs of Ann Arbor. It will provide students with realtime info wait times, cover fees, bouncer strictness, vibe, and more! This is something I wished I knew and would be super useful for students so they can make plans more effectively. I am currently developing the product and I hope to release this to the public in the fall!' 
+          learnedText1='I learned how to think like a consumer and see what features would be most beneficial'
+          learnedText2='I also learned how to set up and use cookies to gather user information and help me create a consumer flow'
+          learnedText3='I got experience using the Location API to validate update requests to Bar/Club information'
+          learnedText4='Furthered my knowledge of SuPabase and designed all the tables/storage for blueline information'
+          techUsed='Location API, Typescript, React, Next.js, Tailwind CSS, Figma,'
+          buttonText1='Github Repo'
+          buttonLink1='https://github.com/HariChidam/blueline'
         />
       </div>
     </div>

@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Head from 'next/head';
 import hari from '../public/hari.jpg';
+import cartoonHari from '../public/cartoonHari.jpeg'
 
 export default function Home() {
   return (
@@ -26,8 +27,9 @@ export default function Home() {
               Outside of the tech world, I have a passion for tennis and various endurance sports, particularly Nordic Skiing!
           </p>
         </div>
-        <div className="w-1/4 rounded-full overflow-hidden">
-          <Image src={hari} alt="Hari's Photo" layout="responsive" objectFit="cover" height={200} width={200} />
+        <div className="relative">
+          <Image src={hari} alt="Hari's Photo" layout="fixed" objectFit="cover" className='w-80 rounded-lg transition-opacity duration-300 ease-in opacity-100 hover:opacity-0' />
+          <Image src={cartoonHari} alt="Hari's Photo" layout="fixed" objectFit="cover" className='w-80 rounded-lg absolute top-0 left-0 transition-opacity duration-300 ease-in opacity-0 hover:opacity-100' />
         </div>
       </div>
     </div>
