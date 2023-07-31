@@ -6,6 +6,7 @@ import V1 from '../public/V1.png';
 import TB from '../public/TB.png';
 import blueline from '../public/blueline.jpeg';
 import gotPhished from '../public/gotPhished.png';
+import rushbook from '../public/rushbook.png';
 
 export default function Projects() {
   return (
@@ -82,6 +83,20 @@ export default function Projects() {
           techUsed='Location API, Typescript, React, Next.js, Tailwind CSS, Figma,'
           buttonText1='Github Repo'
           buttonLink1='https://github.com/HariChidam/blueline'
+        />
+        <Project
+          iconSrc={rushbook}
+          title="THT Rushbook"
+          description='The THT Rushbook is something I created to replace a service we pay $600 a semester for. It is a platform to see all potential new members rushing Theta Tau and leave input (Likes, Dislikes, Comments) for each rushee. It restricts access to only members and if you are an admin you can add rushees. It is collaborative and secure and I am very proud of it!'
+          learnedText1='I learned how to write up a project spec and outline the features that would be required for the product to be successful'
+          learnedText2='I also learned how to use Github actions to set up a pipeline the when pushed to the THT repo would copy files to my personal Repo (using ssh key) and deploy to Vercel'
+          learnedText3='Learned how to efficiently structure a database to store the needed information in the best format possible'
+          learnedText4='Learned how to create protected routes, use Next.js router, and adapt to user input and requests'
+          techUsed='Typescript, React, Next.js, Tailwind CSS, Supabase, Figma, Vercel'
+          buttonText1='Project Spec'
+          buttonLink1='https://docs.google.com/document/d/1Suu0fqOIhkCT84SjrMxBhrxQwSXqYxRAbO1Vvj2BlMs/edit#heading=h.ujbqmqoq6bg'
+          buttonText2='Check it out'
+          buttonLink2='https://tht-rushbook-deployment.vercel.app/#'
         />
       </div>
     </div>
