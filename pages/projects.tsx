@@ -97,6 +97,8 @@ export default function Projects() {
           buttonLink1='https://docs.google.com/document/d/1Suu0fqOIhkCT84SjrMxBhrxQwSXqYxRAbO1Vvj2BlMs/edit#heading=h.ujbqmqoq6bg'
           buttonText2='Check it out'
           buttonLink2='https://tht-rushbook-deployment.vercel.app/#'
+          buttonText3='Github Repo'
+          buttonLink3='https://github.com/thetatauthetagamma/tht-rushbook'
         />
       </div>
     </div>

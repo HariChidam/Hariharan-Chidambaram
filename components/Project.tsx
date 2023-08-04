@@ -14,6 +14,8 @@ interface ProjectProps {
   buttonLink1: string;
   buttonText2?: string; // Made buttonText2 optional with the "?"
   buttonLink2?: string; // Made buttonLink2 optional with the "?"
+  buttonText3?: string;
+  buttonLink3?: string;
 }
 
 const Project: React.FC<ProjectProps> = ({
@@ -28,7 +30,9 @@ const Project: React.FC<ProjectProps> = ({
   buttonText1,
   buttonLink1,
   buttonText2,
-  buttonLink2
+  buttonLink2,
+  buttonText3,
+  buttonLink3,
 }) => {
   const iconSrcString = iconSrc.src as string;
   const width = 200; // Placeholder value for width
@@ -70,6 +74,11 @@ const Project: React.FC<ProjectProps> = ({
           {buttonText2 && buttonLink2 && (
             <a href={buttonLink2} className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:from-purple-600 hover:via-pink-600 hover:to-red-600 text-white font-semibold py-2 px-4 rounded ml-2">
               {buttonText2}
+            </a>
+          )}
+          {buttonText3 && buttonLink3 && (
+            <a href={buttonLink3} className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:from-purple-600 hover:via-pink-600 hover:to-red-600 text-white font-semibold py-2 px-4 rounded ml-2">
+            {buttonText3}
             </a>
           )}
         </div>
