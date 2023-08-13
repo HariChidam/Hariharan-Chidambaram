@@ -25,7 +25,7 @@ export default function Projects() {
           learnedText2='how to set up and use cookies to gather user information and help me create a consumer flow and tailor the site to the user'
           learnedText3='how to use Geolocation API to validate update requests to Bar/Club information and learned how to think about how Good actors and Bad actors would use the site'
           learnedText4='how to use seamlessly set up tables/storage in supabase and set up a project using Goolge Cloud Console'
-          techUsed='Geolocation API, Typescript, React, Next.js, Tailwind CSS, Figma, Vercel, Supabase'
+          techUsed='Geolocation API, Typescript, React, Next.js, Tailwind CSS, Figma, Vercel, Supabase(PostgreSQL)'
           buttonText1='Check it out!'
           buttonLink1='https://blueline-theta.vercel.app/'
           buttonText2='Github Repo'
@@ -40,7 +40,7 @@ export default function Projects() {
           learnedText2='how to create new API routes, work with our Middleware (Railway), create an infintie scrolling dashboard, and many other features!'
           learnedText3='how to think about high level projects and then create a Jira story and tickets for the team to work on'
           learnedText4='a lot about writing clean code and reusing components as much as possible!'
-          techUsed="Typescript, React, Next.js, TailwindCSS, Railway, Supabase, Netlify"
+          techUsed="Typescript, React, Next.js, TailwindCSS, Railway, Supabase(PostgreSQL), Netlify"
           buttonText1="Check it out!"
           buttonLink1="https://v1michigan.com/"
         />
@@ -82,7 +82,7 @@ export default function Projects() {
           learnedText2='how to use Github actions to set up a pipeline the when pushed to the THT repo would copy files to my personal Repo (using ssh key) and deploy to Vercel'
           learnedText3='how to efficiently structure a database to store the needed information in the best format possible'
           learnedText4='how to create protected routes, use Next.js router, and adapt to user input and requests'
-          techUsed='Typescript, React, Next.js, Tailwind CSS, Supabase, Figma, Vercel'
+          techUsed='Typescript, React, Next.js, Tailwind CSS, Supabase(PostgreSQL), Figma, Vercel'
           buttonText1='Project Spec'
           buttonLink1='https://docs.google.com/document/d/1Suu0fqOIhkCT84SjrMxBhrxQwSXqYxRAbO1Vvj2BlMs/edit#heading=h.ujbqmqoq6bg'
           buttonText2='Check it out'
@@ -98,7 +98,7 @@ export default function Projects() {
           learnedText2="how to configure and design efficient relational databases."
           learnedText3="how to connect a frontend to a database (Supabase) for storing information and implementing authentication using Google OAuth."
           learnedText4="how to write documentation and outlined new features to be added down the line so that future members can keep the site up and running!"
-          techUsed="Javascript, React, SCSS, Supabase, Netlify, Figma"
+          techUsed="Javascript, React, SCSS, Supabase(PostgreSQL), Netlify, Figma"
           buttonText1="Check it out!"
           buttonLink1="https://thetatau-umich.org/"
           buttonText2='Documentation'
