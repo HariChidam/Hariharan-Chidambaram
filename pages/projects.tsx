@@ -4,7 +4,7 @@ import Future from '../components/Future';
 import THT from '../public/THT.png';
 import V1 from '../public/V1.png';
 import TB from '../public/TB.png';
-import blueline from '../public/blueline.jpeg';
+import blueline from '../public/blueline.png';
 import gotPhished from '../public/gotPhished.png';
 import rushbook from '../public/rushbook.png';
 
@@ -27,7 +27,7 @@ export default function Projects() {
           learnedText4='how to use seamlessly set up tables/storage in supabase and set up a project using Goolge Cloud Console'
           techUsed='Geolocation API, Typescript, React, Next.js, Tailwind CSS, Figma, Vercel, Supabase(PostgreSQL)'
           buttonText1='Check it out!'
-          buttonLink1='https://blueline-theta.vercel.app/'
+          buttonLink1='https://blueline-umich.vercel.app/'
           buttonText2='Github Repo'
           buttonLink2='https://github.com/HariChidam/blueline'
           
