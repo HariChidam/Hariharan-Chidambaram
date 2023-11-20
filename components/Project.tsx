@@ -39,7 +39,7 @@ const Project: React.FC<ProjectProps> = ({
   const height = 200; // Placeholder value for height
 
   return (
-    <div className="max-w-md mx-auto bg-white shadow-2xl rounded-lg overflow-hidden mb-4 border border-slate-900 transform transition-all hover:scale-105 ease-in duration-300">
+    <div className="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden mb-4 border border-slate-900 hover:shadow-2xl">
       <div className="relative">
         <Image src={iconSrcString} alt="Project Icon" className="w-full" width={width} height={height} />
       </div>
@@ -68,16 +68,16 @@ const Project: React.FC<ProjectProps> = ({
           </p>
         </div> 
         <div className="flex items-center justify-between">
-          <a href={buttonLink1} className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:from-purple-600 hover:via-pink-600 hover:to-red-600 text-white font-semibold py-2 px-4 rounded mr-2">
+          <a href={buttonLink1} className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:from-purple-600 hover:via-pink-600 hover:to-red-600 text-white font-semibold py-2 px-4 rounded ml-2 items-center">
             {buttonText1}
           </a>
           {buttonText2 && buttonLink2 && (
-            <a href={buttonLink2} className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:from-purple-600 hover:via-pink-600 hover:to-red-600 text-white font-semibold py-2 px-4 rounded ml-2">
+            <a href={buttonLink2} className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:from-purple-600 hover:via-pink-600 hover:to-red-600 text-white font-semibold py-2 px-4 rounded ml-2  items-center">
               {buttonText2}
             </a>
           )}
           {buttonText3 && buttonLink3 && (
-            <a href={buttonLink3} className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:from-purple-600 hover:via-pink-600 hover:to-red-600 text-white font-semibold py-2 px-4 rounded ml-2">
+            <a href={buttonLink3} className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:from-purple-600 hover:via-pink-600 hover:to-red-600 text-white font-semibold py-2 px-4 rounded ml-2 items-center">
             {buttonText3}
             </a>
           )}
