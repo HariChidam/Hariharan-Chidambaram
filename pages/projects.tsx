@@ -76,19 +76,19 @@ export default function Projects() {
         />
         <Project
           iconSrc={rushbook}
-          title="THT Rushbook"
-          description='The THT Rushbook is something I created to replace a service we pay $600 a semester for. It is a platform to see all potential new members rushing Theta Tau and leave input (Likes, Dislikes, Comments) for each rushee. It restricts access to only members and if you are an admin you can add rushees. It is collaborative and secure and I am very proud of it!'
+          title="Rushbook"
+          description='The Rushbook is something I created to replace a service we pay $600 a semester for. It is a platform to see all potential new members joining a club and leave input (Likes, Dislikes, Comments) for each rushee. It restricts access to only members and if you are an admin you can add rushees. It is collaborative and secure and I am very proud of it!'
           learnedText1='how to write up a project spec and outline the features that would be required for the product to be successful'
-          learnedText2='how to use Github actions to set up a pipeline the when pushed to the THT repo would copy files to my personal Repo (using ssh key) and deploy to Vercel'
+          learnedText2='how to use Github actions to set up a pipeline the when pushed to an Orgs repo would copy files to my personal Repo (using ssh key) and deploy to Vercel'
           learnedText3='how to efficiently structure a database to store the needed information in the best format possible'
           learnedText4='how to create protected routes, use Next.js router, and adapt to user input and requests'
           techUsed='Typescript, React, Next.js, Tailwind CSS, Supabase(PostgreSQL), Figma, Vercel'
           buttonText1='Project Spec'
           buttonLink1='https://docs.google.com/document/d/1Suu0fqOIhkCT84SjrMxBhrxQwSXqYxRAbO1Vvj2BlMs/edit#heading=h.ujbqmqoq6bg'
           buttonText2='Check it out'
-          buttonLink2='https://tht-rushbook-deployment.vercel.app/#'
+          buttonLink2='https://rushbook.vercel.app/'
           buttonText3='Github Repo'
-          buttonLink3='https://github.com/thetatauthetagamma/tht-rushbook'
+          buttonLink3='https://github.com/thetatauthetagamma/rushbook'
         />
         <Project
           iconSrc={THT}
