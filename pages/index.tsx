@@ -18,13 +18,12 @@ export default function Home() {
             Hi! I&apos;m Hariharan (Hari) Chidambaram
           </h1>
           <p className="text-lg font-bold text-center pb-4 w-4/5">
-            I am a 3rd year student at the University of Michigan studying Computer Science and am particularly interested in Security
-            and Cloud Engineering. I am currently a Security Engineering Intern at{' '}
-            <a href="https://flywheel.io/" className="text-blue-500 hover:underline">
-              Flywheel.io
-            </a>{' '} where I am securing their Kubernetes infrastructure.
-              I am trying to use my time to learn as much as I can though Google, Youtube, School, and the people around me so that I can be a better engineer!
-              Outside of the tech world, I have a passion for tennis and various endurance sports, particularly Nordic Skiing!
+            I am a senior at the University of Michigan studying Computer Science and am particularly interested in Security
+            and Cloud Engineering. I am currently a Software Engineering Intern at{' '}
+            <a href="https://valon.com/" className="text-blue-500 hover:underline">
+              Valon
+            </a>{' '} where I am working on their Escrow team.
+              Outside of the tech world, I have a passion for tennis and various endurance sports, particularly Nordic Skiing and Triathlons!
           </p>
         </div>
         <div className="relative">
