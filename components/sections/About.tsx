@@ -36,7 +36,7 @@ export default function About() {
               >
                 Valon
               </a>{' '}
-              on the Product Infra Team, where I&apos;m building the Task Management product and developing robust infrastructure for financial technology solutions.
+              on the Product Infra Team, where I&apos;m building the Task Management product and developing robust infrastructure for mortgage servicing operations.
             </p>
             
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">

@@ -77,17 +77,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed"
             >
-              Software Engineer passionate about building scalable solutions and innovative products.
-              Currently working at{' '}
-              <a
-                href="https://valon.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:underline glow-hover"
-              >
-                Valon
-              </a>{' '}
-              on the Product Infra Team building the Task Management product.
+              I’m a business-driven software engineer who loves security and building products that matter. When I’m not coding, I’m  playing tennis, chasing endurance challenges, Nordic skiing, and hopefully qualifying for Kona one day.
             </motion.p>
 
             <motion.div

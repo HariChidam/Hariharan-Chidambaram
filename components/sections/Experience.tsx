@@ -110,7 +110,7 @@ export default function ExperienceSection({ experiences }: ExperienceSectionProp
                     <CardContent className="p-4 sm:p-6 pt-0">
                       {/* Roles Timeline */}
                       <div className="space-y-6 mb-6">
-                        {[...exp.roles].reverse().map((role, roleIndex) => (
+                      {exp.roles.map((role, roleIndex) => (
                           <div key={roleIndex} className="relative pl-6 border-l-2 border-primary/30">
                             {/* Timeline dot */}
                             <div className="absolute -left-[7px] top-0 w-3 h-3 rounded-full bg-primary border-2 border-background" />
