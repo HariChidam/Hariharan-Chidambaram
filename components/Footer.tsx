@@ -1,39 +1,58 @@
-import React from 'react';
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
-import Michigan from '../public/michigan.svg';
-import github from '../public/git.svg';
-import linkedin from '../public/linkedin.svg';
-import email from '../public/gmail.svg';
+import { Github, Linkedin, Mail } from 'lucide-react';
+import Michigan from '@/public/michigan.svg';
 
-const Footer = () => {
+export default function Footer() {
   return (
-    <footer className="flex justify-between bg-white py-8 px-6">
-      <div className="flex items-center float-left justify-start">
-        <a className="flex items-center float-left justify-start" href= "https://www.youtube.com/watch?v=9ak9Uxtntfk">
-        <Image src={Michigan} alt="Michigan Logo" className="h-6 w-6 mr-2" />
-        <span className="font-bold text-blue-1000">Class of &apos;25</span> 
-        </a>
-      </div>
-      <div className="flex items-center float-right justify-end space-x-2">
-        <Link legacyBehavior href="https://github.com/HariChidam">
-          <a target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800">
-            <Image src={github} alt="Github Logo" className="h-6 w-6 mr-2" />
-          </a>
-        </Link>
-        <Link legacyBehavior href="https://www.linkedin.com/in/hariharan-chidambaram/">
-          <a target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800">
-            <Image src={linkedin} alt="Linkedin Logo" className="h-6 w-6 mr-2" />
-          </a>
-        </Link>
-        <Link legacyBehavior href="mailto:hari.chidam@gmail.com">
-          <a className="text-gray-600 hover:text-gray-800">
-            <Image src={email} alt="Email Logo" className="h-6 w-6 mr-2" />
-          </a>
-        </Link>
+    <footer className="border-t border-border/50 glass">
+      <div className="container mx-auto px-4 sm:px-6 py-6 sm:py-8">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-2">
+            <a
+              href="https://www.youtube.com/watch?v=9ak9Uxtntfk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+            >
+              <Image src={Michigan} alt="Michigan Logo" className="h-5 w-5 sm:h-6 sm:w-6" />
+              <span className="font-semibold text-sm sm:text-base text-muted-foreground">Class of &apos;25</span>
+            </a>
+          </div>
+          <div className="flex items-center gap-3 sm:gap-4">
+            <Link
+              href="https://github.com/HariChidam"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors p-1"
+              aria-label="GitHub"
+            >
+              <Github className="h-5 w-5 sm:h-6 sm:w-6" />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/hariharan-chidambaram/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors p-1"
+              aria-label="LinkedIn"
+            >
+              <Linkedin className="h-5 w-5 sm:h-6 sm:w-6" />
+            </Link>
+            <Link
+              href="mailto:hari.chidam@gmail.com"
+              className="text-muted-foreground hover:text-primary transition-colors p-1"
+              aria-label="Email"
+            >
+              <Mail className="h-5 w-5 sm:h-6 sm:w-6" />
+            </Link>
+          </div>
+        </div>
+        <div className="mt-4 text-center text-xs sm:text-sm text-muted-foreground">
+          <p>&copy; {new Date().getFullYear()} Hariharan Chidambaram. All rights reserved.</p>
+        </div>
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}
